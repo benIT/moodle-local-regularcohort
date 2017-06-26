@@ -25,7 +25,7 @@ You must set up  this 2 cohorts to get the plugin active.
 
 ## What's inside?
 
- - A listener to the `core\event\user_created` event
+ - A listener to the `core\event\user_created` event. (There's no need to listen to `core\event\user_deleted`. Deleted users are removed from cohorts by MOODLE core.)
  - A web page that will allow to sync cohort with users
  - A cli script that will allow to sync cohort with users: 
  
