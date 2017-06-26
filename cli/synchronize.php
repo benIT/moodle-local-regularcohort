@@ -1,0 +1,20 @@
+<?php
+define('CLI_SCRIPT', true);
+require_once('../../config.php');
+require_once($CFG->libdir . '/clilib.php');
+require_once('../classes/manager.php');
+global $DB;
+$time_start = microtime(true);
+cli_heading("Synchronize cli-script");
+cli_logo();
+cli_writeln("");
+cli_writeln("This script performs cohorts synchronization. It can be used when http requests are too large for being executed from webinterface.");
+cli_writeln("");
+cli_writeln("See README.md for any info");
+cli_writeln("");
+cli_writeln("Script starts");
+$manager = new local_regularcohort_manager();
+$manager->synchronizeUsers();
+$time_end = microtime(true);
+cli_writeln("Done. checkout cohorts membership.");
+cli_writeln('Script ends (' . (microtime(true) - $time_start) . ' seconds).');

@@ -26,4 +26,7 @@ You must set up  this 2 cohorts to get the plugin active.
 ## What's inside?
 
  - A listener to the `core\event\user_created` event
- - A script that will allow to sync cohort with users
+ - A web page that will allow to sync cohort with users
+ - A cli script that will allow to sync cohort with users: 
+ 
+        php cli/synchronize.php 
