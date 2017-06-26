@@ -20,21 +20,19 @@
  * @author      benIT <benoit.works@gmail.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
-//todo: french
 $string['pluginname'] = 'regularcohort';
-$string['regularcohort:manage']='gérer le paramétrage des cohortes d\'utilisateurs réguliers';
-$string['settings'] = 'settings';
-$string['check_regular_cohort'] = 'Check regular cohort';
-$string['check_exceptional_cohort'] = 'Check exceptional cohort';
-$string['check_enable'] = 'Enable';
-$string['access_setting'] = 'Access settings';
-$string['synchronize'] = 'Synchronization';
-$string['synchronize_button'] = 'Synchronise regular and exceptional cohort users';
-$string['synchronize_button_hidden'] = 'The sync button has been hidden. Check cohort parameters, when ok, button will appear.';
-$string['status'] = 'Status';
-$string['check_cohort_membership'] = 'Checkout cohorts membership';
-$string['regular_cohort_name'] = 'Regular cohort id';
-$string['regular_cohort_description'] = 'This cohort is composed of all regular users';
-$string['exceptional_cohort_name'] = 'Exceptional cohort id';
-$string['exceptional_cohort_description'] = 'This cohort is composed of exceptional users';
+$string['regularcohort:manage']='Paramétrer regularcohort';
+$string['settings'] = 'Réglages';
+$string['check_regular_cohort'] = 'Vérification de la cohorte normale';
+$string['check_exceptional_cohort'] = 'Vérification de la cohorte exceptionnelle';
+$string['check_enable'] = 'Etat d\'activation';
+$string['access_setting'] = 'Accéder au paramétrage';
+$string['synchronize'] = 'Synchronisation';
+$string['synchronize_button'] = 'Synchoniser les cohortes normale et exceptionnelle';
+$string['synchronize_button_hidden'] = 'Le bouton de synchronisation a été caché. Vérifier le paramétrage, quand il sera bon, le bouton apparaitra';
+$string['status'] = 'Etat';
+$string['check_cohort_membership'] = 'Vérifier la composition des cohortes';
+$string['regular_cohort_name'] = 'Id de la cohorte normale';
+$string['regular_cohort_description'] = 'Cette cohorte contient les utilisateurs classiques';
+$string['exceptional_cohort_name'] = 'Id de la cohorte exceptionnelle';
+$string['exceptional_cohort_description'] = 'Cette cohorte contient les utilisateurs exceptionels';

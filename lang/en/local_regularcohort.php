@@ -21,15 +21,15 @@
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 $string['pluginname'] = 'regularcohort';
-$string['regularcohort:manage']='gérer le paramétrage des cohortes d\'utilisateurs réguliers';
-$string['settings'] = 'settings';
+$string['regularcohort:manage']='Manage regularcohort settings';
+$string['settings'] = 'Settings';
 $string['check_regular_cohort'] = 'Check regular cohort';
 $string['check_exceptional_cohort'] = 'Check exceptional cohort';
 $string['check_enable'] = 'Enable';
 $string['access_setting'] = 'Access settings';
 $string['synchronize'] = 'Synchronization';
-$string['synchronize_button'] = 'Synchronise regular and exceptional cohort users';
-$string['synchronize_button_hidden'] = 'The sync button has been hidden. Check cohort parameters, when ok, button will appear.';
+$string['synchronize_button'] = 'Synchronize regular and exceptional cohort users';
+$string['synchronize_button_hidden'] = 'The synchronization button has been hidden. Check cohort parameters, when ok, button will appear.';
 $string['status'] = 'Status';
 $string['check_cohort_membership'] = 'Checkout cohorts membership';
 $string['regular_cohort_name'] = 'Regular cohort id';
