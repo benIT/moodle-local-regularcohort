@@ -22,6 +22,7 @@
  */
 require_once(__DIR__ . '/../../../config.php');
 require_once($CFG->dirroot . '/cohort/lib.php');
+
 class local_regularcohort_manager
 {
     /**
@@ -78,14 +79,16 @@ class local_regularcohort_manager
     }
 
     /**
+     * todo: maybe add parameters to run sql not on the entire db, this might cause timeout or memories issue?
      * synchronize all users with cohorts.
      * can take a lot time depending of users number
      */
     public function synchronizeUsers()
     {
-        global $DB;
-        //todo: refine query
-        $users = $DB->get_recordset_sql('SELECT * FROM mdl_user');
+        global $DB, $CFG;
+        $users = $DB->get_recordset_sql('SELECT id FROM mdl_user WHERE deleted=0 and id<>:guestid ORDER BY id ASC',
+            ['guestid' => $CFG->siteguest]
+        );
         foreach ($users as $user) {
             $this->addUserToRegularCohort($user->id);
         }
