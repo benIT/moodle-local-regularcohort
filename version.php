@@ -21,6 +21,6 @@
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 defined('MOODLE_INTERNAL') || die();
-$plugin->version = 2017062105;
+$plugin->version = 2017062106;
 $plugin->requires = 2015111000;
 $plugin->component = 'local_regularcohort';

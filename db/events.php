@@ -34,5 +34,9 @@ $observers = array(
     array(
         'eventname' => 'core\event\user_updated',
         'callback' => 'local_regularcohort_observer::add_user_to_regular_cohort',
-    )
+    ),
+    array(
+        'eventname' => 'core\event\user_loggedin',
+        'callback' => 'local_regularcohort_observer::add_user_to_regular_cohort',
+    ),
 );
