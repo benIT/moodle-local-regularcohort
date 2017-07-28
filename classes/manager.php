@@ -59,10 +59,10 @@ class local_regularcohort_manager
     {
         if ($this->isEnable()) {
             if (!$this->cohortRegular) {
-                throw new \Exception("cannot found regular cohort with name ");
+                throw new \Exception("cannot found regular cohort");
             }
             if (!$this->cohortExceptional) {
-                throw new \Exception("cannot found regular cohort with name ");
+                throw new \Exception("cannot found regular cohort");
             }
 
 
@@ -79,7 +79,6 @@ class local_regularcohort_manager
     }
 
     /**
-     * todo: maybe add parameters to run sql not on the entire db, this might cause timeout or memories issue?
      * synchronize all users with cohorts.
      * can take a lot time depending of users number
      */
@@ -141,6 +140,5 @@ class local_regularcohort_manager
     {
         $this->enable = $enable;
     }
-
 
 }
