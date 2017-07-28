@@ -30,7 +30,7 @@ class local_regularcohort_observer
      * when deleted users are automatically removed from cohort by moodle CORE. No need to listen for `user_deleted` event.
      * @param \core\event\base $event
      */
-    public static function user_created(core\event\base $event)
+    public static function add_user_to_regular_cohort(core\event\base $event)
     {
         $manager = new local_regularcohort_manager();
         $manager->addUserToRegularCohort($event->objectid);
