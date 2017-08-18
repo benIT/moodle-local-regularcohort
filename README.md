@@ -30,3 +30,7 @@ You must set up  this 2 cohorts to get the plugin active.
  - A cli script that will allow to sync cohort with users: 
  
         php cli/synchronize.php 
+        
+## Documentation
+
+- [Detailed fr doc](doc/fr/usage.md)
