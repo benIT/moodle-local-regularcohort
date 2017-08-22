@@ -1,5 +1,9 @@
 # Moodle regularcohort local plugin
 
+## Download
+
+[Click here to get the latest stable version.](https://github.com/benIT/moodle-local-regularcohort/archive/master.zip)
+
 ## Installation
 
 Place this repo in the `local` folder of your Moodle installation and named it `regularcohort`. 
