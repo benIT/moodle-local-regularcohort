@@ -20,7 +20,7 @@
  * @author      benIT <benoit.works@gmail.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$string['pluginname'] = 'regularcohort';
+$string['pluginname'] = 'Regular and exceptional users management';
 $string['regularcohort:manage']='Manage regularcohort settings';
 $string['settings'] = 'Settings';
 $string['check_regular_cohort'] = 'Check regular cohort';

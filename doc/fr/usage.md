@@ -9,7 +9,7 @@ Créer 2 cohortes:
 
 ## Paramétrer le plugin
 
-Il faut maintenant renseigner dans le plugin les identifiants des 2 cohortes : `Administration du site / ► Plugins / ► Plugins locaux / ► regularcohort`
+Il faut maintenant renseigner dans le plugin les identifiants des 2 cohortes : `Administration du site / ► Plugins / ► Plugins locaux / ► Gestion des utilisateurs réguliers et exceptionels`
 
 ![settings-cohorts](img/settings-cohorts.png)
 
