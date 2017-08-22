@@ -26,7 +26,7 @@ if ($hassiteconfig) {
     $admin_settingpage = new admin_settingpage('local_regularcohort', get_string('pluginname', 'local_regularcohort'));
 
     $admin_settingpage->add(new admin_setting_heading('heading', get_string('settings', 'local_regularcohort'), '
-<a class="btn btn-info" href="/local/regularcohort/">'.get_string('status', 'local_regularcohort').'</a> <a class="btn btn-info" href="/cohort/index.php">'.get_string('check_cohort_membership', 'local_regularcohort').'</a>
+<a target="_blank" class="btn btn-info" href="/local/regularcohort/">'.get_string('status', 'local_regularcohort').'</a> <a class="btn btn-info" target="_blank" href="/cohort/index.php">'.get_string('check_cohort_membership', 'local_regularcohort').'</a>
 ', ''));
 
 

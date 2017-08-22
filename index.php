@@ -40,8 +40,8 @@ $PAGE->set_title(get_string('pluginname', 'local_regularcohort'));
 $PAGE->set_heading(get_string('status', 'local_regularcohort'));
 echo $OUTPUT->header();
 
-$okIcon = '<i class="fa fa-check" aria-hidden="true"></i>';
-$koIcon = '<i class="fa fa-times" aria-hidden="true"></i>';
+$okIcon = '<img alt="ok" src="pix/right.png">';
+$koIcon = '<img alt="ko" src="pix/wrong.png">';
 
 echo html_writer::start_tag('table');
 $message = $manager->getCohortRegular() ? $okIcon : $koIcon;
@@ -67,6 +67,7 @@ echo html_writer::end_tag('tr');
 echo html_writer::end_tag('table');
 
 echo html_writer::tag('a', get_string('access_setting', 'local_regularcohort'), [
+    'target' => '_blank',
     'class' => 'btn btn-info',
     'href' => '/admin/settings.php?section=local_regularcohort']);
 
@@ -74,7 +75,7 @@ echo html_writer::tag('a', get_string('access_setting', 'local_regularcohort'), 
 echo html_writer::tag('h2', get_string('synchronize', 'local_regularcohort'));
 
 if ($manager->isEnable()) {
-    echo html_writer::tag('a', get_string('synchronize_button', 'local_regularcohort'),  [
+    echo html_writer::tag('a', get_string('synchronize_button', 'local_regularcohort'), [
         'class' => 'btn btn-primary',
         'href' => 'synchronize.php']);
 

@@ -26,7 +26,8 @@ require_once('classes/manager.php');
 defined('MOODLE_INTERNAL') || die();
 $context = context_system::instance();
 require_login();
-require_capability('local/regularcohort:manage', $context);global $PAGE;
+require_capability('local/regularcohort:manage', $context);
+global $PAGE;
 $manager = new local_regularcohort_manager();
 $PAGE->set_context($context);
 $PAGE->set_title(get_string('pluginname', 'local_regularcohort'));
@@ -35,7 +36,6 @@ $PAGE->set_pagelayout("standard");
 $PAGE->set_url("/local");
 echo $OUTPUT->header();
 $manager->synchronizeUsers();
-echo '
- <i class="fa fa-check fa-5x" aria-hidden="true"></i> <br><br>
- <a class="btn btn-info" href="/cohort/index.php">'.get_string('check_cohort_membership', 'local_regularcohort').'</a>';
+echo '<img alt="ok" src="pix/right.png"> <br><br>
+<a class="btn btn-info" href="/cohort/index.php">' . get_string('check_cohort_membership', 'local_regularcohort') . '</a>';
 echo $OUTPUT->footer();
