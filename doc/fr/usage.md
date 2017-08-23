@@ -2,7 +2,7 @@
 
 ## Principe
 
-Le but de ce plugin est de permettre d'utiliser la fonctionnalité native de moodle de limitation de l'auto-inscription à un cours pour à une cohorte.
+Le but de ce plugin est de permettre d'utiliser la fonctionnalité native de moodle de limitation de l'auto-inscription à un cours pour une cohorte.
 
 En clair, nous allons restreindre l'auto-inscription pour les cours sensibles à une cohorte contenant les utilisateurs réguliers. 
 
