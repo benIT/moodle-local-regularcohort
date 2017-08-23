@@ -1,4 +1,4 @@
-# Utilisation
+# Utilisation du plugin regularcohort
 
 ## Cohortes
 
@@ -19,6 +19,14 @@ Dans le cours en question, restreindre l'auto-inscription aux membres de la coho
 Ainsi seuls, les membres de la cohorte des utilisateurs réguliers pourront s'auto-inscrire.
 
 ![regular-user-cohort-only](img/regular-user-cohort-only.png)
+
+## Comment définir un utilisateur comme étant exceptionnel ?
+
+Pour cela, il suffit d'ajouter l'utilisateur en question à la cohorte des utilisateurs exceptionnels. 
+
+Si l'utilisateur est membre de la membre de la cohorte régulière, il sera enlevé automatiquement de la cohorte régulière à la [prochaine synchronisation](#déclenchement). 
+
+Si vous ne souhaitez pas attendre la prochaine synchronisation, vous pouvez l'enlever manuellement de la cohorte régulière.  
 
 ## Comment fonctionne la synchronisation des cohortes ?
 
