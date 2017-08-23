@@ -1,5 +1,16 @@
 # Utilisation du plugin regularcohort
 
+## Principe
+
+Le but de ce plugin est de permettre d'utiliser la fonctionnalité native de moodle de limitation de l'auto-inscription à un cours pour à une cohorte.
+
+En clair, nous allons restreindre l'auto-inscription pour les cours sensibles à une cohorte contenant les utilisateurs réguliers. 
+
+Les utilisateurs exceptionnels ne pourront pas s'auto-inscrire tandis que les utilisateurs réguliers pourront s'auto-inscrire.
+
+Le plugin permet de gérer et de synchroniser ces cohortes.
+ 
+
 ## Cohortes
 
 Créer 2 cohortes:
