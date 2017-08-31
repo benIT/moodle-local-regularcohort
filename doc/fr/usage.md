@@ -29,6 +29,10 @@ Il faut maintenant renseigner dans le plugin les identifiants des 2 cohortes : `
 Dans le cours en question, restreindre l'auto-inscription aux membres de la cohortes des utilisateurs réguliers et enregistrer.
 Ainsi seuls, les membres de la cohorte des utilisateurs réguliers pourront s'auto-inscrire.
 
+Pour cela aller dans le cours en question puis `Utilisateurs / ► Méthodes d'inscription` et modifier le paramétrage de l'auto-inscription. 
+
+Dans l'écran, le champs à modifier se nomme `Seulement les membres de la cohorte`. Il faut renseigner la valeur de la cohorte contenant les utilisateurs réguliers comme ci dessous : 
+
 ![regular-user-cohort-only](img/regular-user-cohort-only.png)
 
 ## Comment définir un utilisateur comme étant exceptionnel ?
