@@ -20,8 +20,7 @@
  * @author      benIT <benoit.works@gmail.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$context = context_system::instance();
-require_login();
+
 if ($hassiteconfig) {
     $admin_settingpage = new admin_settingpage('local_regularcohort', get_string('pluginname', 'local_regularcohort'));
 
